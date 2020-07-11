@@ -1,0 +1,28 @@
+Determining if the getauxval exist failed with the following output:
+Change Dir: /Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_595a9/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_595a9.dir/build.make CMakeFiles/cmTC_595a9.dir/build
+Building C object CMakeFiles/cmTC_595a9.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_595a9.dir/CheckSymbolExists.c.o   -c /Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
+#include <sys/auxv.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_595a9.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_595a9/fast] Error 2
+
+
+File /Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

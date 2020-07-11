@@ -1,0 +1,10 @@
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/install.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/cpu_features.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/list_cpu_features.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/unix_based_hardware_detection.dir
+/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/utils.dir

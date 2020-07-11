@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CpuFeatures"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpu_features">
+				<Option output="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/libcpu_features.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTACK_LINE_READER_BUFFER_SIZE=1024"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpu_features"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpu_features/fast">
+				<Option output="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/libcpu_features.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTACK_LINE_READER_BUFFER_SIZE=1024"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpu_features/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_cpu_features">
+				<Option output="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/list_cpu_features" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTACK_LINE_READER_BUFFER_SIZE=1024"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_cpu_features"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_cpu_features/fast">
+				<Option output="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/list_cpu_features" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTACK_LINE_READER_BUFFER_SIZE=1024"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_cpu_features/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unix_based_hardware_detection">
+				<Option output="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/unix_based_hardware_detection.dir/unix_based_hardware_detection.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTACK_LINE_READER_BUFFER_SIZE=1024"/>
+					<Add option="-DHAVE_DLFCN_H"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 unix_based_hardware_detection"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unix_based_hardware_detection/fast">
+				<Option output="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/unix_based_hardware_detection.dir/unix_based_hardware_detection.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTACK_LINE_READER_BUFFER_SIZE=1024"/>
+					<Add option="-DHAVE_DLFCN_H"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 unix_based_hardware_detection/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/utils.dir/utils.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTACK_LINE_READER_BUFFER_SIZE=1024"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/utils.dir/utils.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTACK_LINE_READER_BUFFER_SIZE=1024"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include"/>
+					<Add directory="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/utils.dir/src/filesystem.c.o">
+			<Option target="cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/utils.dir/src/stack_line_reader.c.o">
+			<Option target="cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug/CMakeFiles/utils.dir/src/string_view.c.o">
+			<Option target="cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/cpu_features_cache_info.h">
+			<Option target="cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/cpu_features_macros.h">
+			<Option target="cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/cpuinfo_x86.h">
+			<Option target="cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal/bit_utils.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal/cpuid_x86.h">
+			<Option target="cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal/filesystem.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal/hwcaps.h">
+			<Option target="unix_based_hardware_detection"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal/stack_line_reader.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal/string_view.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/include/internal/unix_features_aggregator.h">
+			<Option target="unix_based_hardware_detection"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/src/cpuinfo_x86.c">
+			<Option target="cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/src/filesystem.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/src/hwcaps.c">
+			<Option target="unix_based_hardware_detection"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/src/stack_line_reader.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/src/string_view.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/src/unix_features_aggregator.c">
+			<Option target="unix_based_hardware_detection"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/src/utils/list_cpu_features.c">
+			<Option target="list_cpu_features"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/cpu_features/cmake/CpuFeaturesConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,15 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/Alex/workspace/CLionProjects/cpu_features
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for getauxval
+-- Looking for getauxval - not found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/Alex/workspace/CLionProjects/cpu_features/cmake-build-debug
